@@ -1,0 +1,120 @@
+.version.schedule /* version checker */
+{
+	color: #000017;
+	background-color: #B55A0D;
+}
+
+@-ms-viewport
+{
+	width: 380px;
+}
+
+@-webkit-viewport
+{
+	width: 380px;
+}
+
+@-o-viewport
+{
+	width: 380px;
+}
+
+@-moz-viewport
+{
+	width: 380px;
+}
+
+@viewport
+{
+	width: 380px;
+}
+
+.html
+{
+	background: #7F7F7F url("../../images/bkghoriz.jpg") repeat-y center top scroll;
+}
+
+#page
+{
+	z-index: 1;
+	width: 375px;
+	min-height: 563.55px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-top: 6px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+}
+
+#ppu16117
+{
+	width: 0.01px;
+	margin-left: 5px;
+}
+
+#u16117
+{
+	z-index: 6;
+	height: 32px;
+	width: 123px;
+	margin-bottom: -1px;
+	position: relative;
+	margin-right: -10000px;
+	background: url("../../images/u16117_states.png") no-repeat 0px 0px;
+}
+
+#u16117:hover #u16117_states
+{
+	height: 32px;
+	width: 123px;
+	background: url("../../images/u16117_states-r.png") no-repeat 0px 0px;
+}
+
+#u16116
+{
+	z-index: 3;
+	height: 32px;
+	width: 123px;
+	margin-bottom: -1px;
+	position: relative;
+	margin-right: -10000px;
+	left: 248px;
+	background: url("../../images/u16116_states.png") no-repeat 0px 0px;
+}
+
+#u16117_states,#u16116_states
+{
+	min-height: 32px;
+	min-width: 123px;
+	vertical-align: top;
+}
+
+#u16116:hover #u16116_states
+{
+	height: 32px;
+	width: 123px;
+	background: url("../../images/u16116_states-r.png") no-repeat 0px 0px;
+}
+
+#u16118-90
+{
+	z-index: 8;
+	display: block;
+	vertical-align: top;
+	margin-top: 59px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 380px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
